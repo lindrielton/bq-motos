@@ -9,6 +9,7 @@
 
 body{
     background-color: rgb(176, 163, 148);
+   
 }
 
 .cabeca{
@@ -18,4 +19,48 @@ body{
     color:aliceblue;
     background-color:rgb(119, 136, 153);
     padding: 10px;
+}
+
+.inicio{
+    text-align: center;
+    padding: 30px;
+    background-color: rgba(27, 33, 38, 0.957);
+    color: white;
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+   
+}
+
+.inicio h2{
+    padding: 10px;
+}
+
+.inicio p{
+    padding-bottom: 5px;
+}
+
+ #wats{
+    display: block;
+    padding: 5px;
+    margin: auto;
+    margin-bottom: 5px;
+    text-decoration: none;
+    background-color:lightgreen;
+    color: white;
+    border-radius: 5px;
+    width: 200px;
+    text-align: center;
+    
+}
+
+#liga{
+    display: block;
+    padding: 5px;
+    margin: auto;
+    text-decoration: none;
+    background-color:lightgreen;
+    color: white;
+    border-radius: 5px;
+    width: 200px;
+    text-align: center;
 }
