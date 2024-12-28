@@ -37,6 +37,7 @@ body{
 
 .inicio p{
     padding-bottom: 5px;
+    margin-bottom: 10px;
 }
 
  #wats{
@@ -49,8 +50,12 @@ body{
     color: white;
     border-radius: 5px;
     width: 200px;
-    text-align: center;
-    
+    text-align: center;   
+}
+
+#wats:hover{
+    color: darkslategray;
+    transition: 2ms;
 }
 
 #liga{
@@ -63,4 +68,9 @@ body{
     border-radius: 5px;
     width: 200px;
     text-align: center;
+}
+
+#liga:hover{
+    color: darkslategray;
+    transition: 2ms;
 }
