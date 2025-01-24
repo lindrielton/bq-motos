@@ -17,16 +17,17 @@ body{
     font-family:  Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     color:aliceblue;
-    background-color:rgb(119, 136, 153);
+    background-color:#778899;
     padding: 10px;
 }
 
 .inicio{
     text-align: center;
     padding: 30px;
-    background-color: rgba(27, 33, 38, 0.957);
-    color: white;
+    background-color: #1b2126f4;
+    color: #fffefe;
    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
    
    
 }
@@ -73,4 +74,69 @@ body{
 #liga:hover{
     color: darkslategray;
     transition: 2ms;
+}
+
+
+ h1.segundpt{
+    margin-bottom: 5px;
+    text-align: center;
+    font-style: italic;
+    color: rgba(0, 0, 0, 0.633);
+}
+
+h3{
+    font-style:italic ;
+    color:#29313a ;
+    font-weight: 200px;
+    text-transform: uppercase;
+    margin: 5px;
+}
+
+p{
+    padding: 5px;
+    font-size: 1.1em;
+    line-height: 1.5;
+    margin-left: 10px;
+    color: #15191e;
+    
+}
+
+.contato{
+    text-align: center;
+    margin: 10px;
+    color: #29313a;
+    font-style: italic;
+}
+
+a#contato{
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    color: azure;
+    background-color: #29313a;
+    padding: 10px;
+    width: 150px;
+    margin: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;    
+}
+
+#contato:hover{
+    transform: scale(1.2);
+    color:aqua;
+}
+
+.bio{
+    margin: 10px; 
+}
+
+article > h1{
+    padding: 10px;
+    color:#29313a;
+    font-style: italic;
+}
+article > h2{
+    padding: 10px;
+    color:#29313a;
+    font-style: italic;
 }
