@@ -14,10 +14,11 @@ body{
 
 .cabeca{
     font-size: 1.2em;
-    font-family:  Georgia, 'Times New Roman', Times, serif;
+    font-family:cursive;
     text-align: center;
-    color:aliceblue;
-    background-color:#778899;
+    color:aqua;
+    font-style:italic;
+    background-color: #1b2126f4;
     padding: 10px;
 }
 
@@ -39,6 +40,9 @@ body{
 .inicio p{
     padding-bottom: 5px;
     margin-bottom: 10px;
+    color: aqua;
+    font-family: cursive ;
+    font-style: italic;
 }
 
  #wats{
@@ -139,4 +143,20 @@ article > h2{
     padding: 10px;
     color:#29313a;
     font-style: italic;
+}
+
+ .local{
+    padding: 10px;
+    text-align: center;
+    background-color: #15191e;
+    color:rgb(172, 183, 198)
+}
+footer > p{
+    text-align: center;
+    padding: 10px;
+    font-family: cursive;
+    font-style: italic;
+    color: aqua;
+    background-color: #15191e;
+    
 }
